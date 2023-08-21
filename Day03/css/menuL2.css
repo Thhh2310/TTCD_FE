@@ -1,0 +1,50 @@
+
+nav, nav ul, nav li, nav a {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+nav {
+    height: 2rem;
+    background-color: rgb(101, 194, 109);
+    border-radius: 5px;
+}
+nav ul li {
+    position: relative;
+    list-style: none;
+    float: left;
+    display: block;
+    height: 2rem;
+}
+nav ul li a {
+    display: block;
+    padding: 0 14px;
+    margin: .5rem 0;
+    text-decoration: none;
+    border-right: 1px solid rgb(7, 119, 58);
+    color: rgb(47, 70, 62);
+}
+nav ul li:last-child a {
+    border-right: none;
+}
+nav ul li:hover >a {
+    color:greenyellow;
+}
+.menu-doc {
+    position: absolute;
+    opacity: 0;
+    background-color: rgb(38, 128, 57);
+}
+nav ul li:hover >ul.menu-doc {
+    opacity: 15;
+}
+.menu-doc li a{
+    border: none;
+}
+.menu-doc li {
+    border-bottom: 1px solid violet;
+    width: 100%;
+}
+.menu-doc li:last-child {
+    border-bottom: none;
+}

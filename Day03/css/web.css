@@ -1,0 +1,27 @@
+.clearfix {
+    overflow: hidden;
+    clear: both;
+}
+header {
+    background-color: #2d303a;
+}
+.fixwidth {
+    width: 940px;
+    margin: 0 auto;
+}
+.topnav{
+    width: 940px;
+    margin: 0 auto;
+    padding: 34px 0;
+}
+#logo {
+    width: 200px;
+    float: left;
+}
+a {
+    text-decoration: none;
+}
+#logo a {
+    color: #fff;
+    
+}

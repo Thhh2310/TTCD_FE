@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thẻ audio và thẻ nhóm để nghe nhạc và lời bài hát đi kèm</title>
+</head>
+<body>
+    <fieldset align="center">
+        <legend>Bạn đang nghe bài hát</legend>
+        <h2>Bài hát: Anh Muốn Nói - Trịnh Thăng Bình</h2>
+        <audio controls="controls" autoplay="autoplay" loop="loop">
+            <source src="horse.ogg" type="audio/ogg">
+            <source src="Music/AnhMuonNoi.mp3" type="audio/mpeg">
+            Trình duyệt của bạn ko hỗ trợ định dạng file này
+        </audio>
+        <br>
+        <label>Chất lượng: </label>
+        <input type="radio" name="chatLuong" id="q128">128Kb
+        <input type="radio" name="chatLuong" id="q320">320Kb
+        <input type="radio" name="chatLuong" id="lossless">Lossless
+        <details>
+            <br>
+            <h3>Lời bài hát</h3>
+            <p>
+                Em, thật sự thì anh muốn nói rằng anh...<br>
+                lý trí ko ngăn được trái tim<br>
+                Mỗi khi anh gần em<br>
+                là lòng anh cứ rối bời thêm<br>
+                ...............
+            </p>
+        </details>
+    </fieldset>
+</body>
+</html>
