@@ -1,9 +1,10 @@
-.clearfix{
+/* .clearfix{
     overflow: hidden;
     clear: both;
-}
+} */
 header{
     background-color: #2d303a;
+    padding-bottom: 35px;
 }
 .fixwidth{
     width: 900px;
@@ -17,13 +18,16 @@ header{
 #logo{
     width: 200px;
     float: left;
+    margin-left: -100px;
+}
+nav ul, footer ul{
+    list-style: none;
 }
 a{
     text-decoration: none;
 }
 #logo a{
     color: #fff;
-    font-family: Lato-Bold;
     font-size: 25px;
 }
 #logo a span{
@@ -41,9 +45,39 @@ a{
     display: block;
     padding-top: 10px;
     padding-right: 20px;
-    font-family: Lato-Bold;
     font-size: 12px;
 }
 .selected, .topnav nav ul li a:hover{
     color: #f06c64;
 }
+#banner{
+    background-color: #f06c64;
+    padding: 50px 0;
+}
+/* #banner img{
+    padding-top: -50px;
+    width: 100%;
+} */
+footer .footer li{
+    float: left;
+    margin-right: 5px;
+}
+footer{
+    background-color: #2d303a;
+    padding: 22px 0;
+}
+footer .footer{
+    float: right;
+}
+footer address{
+    float: left;
+    width: 300px;
+    padding-top: 10px;
+    color: #c5c5c5;
+}
+footer ul img{
+    width: 20%;
+}
+/* footer ul li{
+    display: inline;
+} */
